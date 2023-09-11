@@ -17,8 +17,6 @@ Setting::Setting(/* args */) {
 
     MessageQueue<std::vector<DevInfo>>::getInstance().publish("Setting/DevList", devList);
     MessageQueue<std::vector<SerialIdInfo>>::getInstance().publish("Setting/serialList", serialList);
-
-    printHello();
 }
 
 Setting::~Setting()
