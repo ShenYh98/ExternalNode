@@ -75,4 +75,4 @@ file(GLOB_RECURSE LIBRARIES
 )
 # 链接库文件
 target_link_libraries(ExternalNode ${LIBRARIES})
-target_link_libraries(ExternalNode PRIVATE pthread modbus)
+target_link_libraries(ExternalNode PRIVATE pthread )
